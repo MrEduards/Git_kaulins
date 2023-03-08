@@ -8,7 +8,7 @@ public class Kaulins {
 		Scanner scan = new Scannner(System.in);
 		System.out.println("Cik reizes metîsi kauliòu?");
 		
-		skaitlis = rand.nextInt();
+		skaitlis = rand.nextInt(6)+1;
 		for(int i=1; i<=reizes; i++){
 		System.out.println("Uzkrita skaitlis: "+skaitlis);
 
